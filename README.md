@@ -20,15 +20,6 @@ This project applies feature extraction techniques on URLs and uses supervised l
 
 ---
 
-## 🖼️ Screenshots  
-
-> **Sample CLI Prediction**  
-> ![Screenshot](screenshots/sample_prediction.png)  
-
-*(Add your screenshot in `screenshots/` folder as `sample_prediction.png`)*  
-
----
-
 ## ⚙️ Requirements  
 
 Install all dependencies using:  
@@ -36,7 +27,7 @@ Install all dependencies using:
 ```bash
 pip install -r requirements.txt
 
-
+---
 
 🛠️ Tech Stack
 
@@ -50,6 +41,7 @@ pip install -r requirements.txt
 
 💾 Joblib (Model persistence)
 
+---
 
 📂 Project Structure
 Phishing-URL-Detector/
@@ -61,6 +53,7 @@ Phishing-URL-Detector/
 │── saved_model.pkl        # Trained ML model  
 │── README.md              # Documentation  
 
+---
 
 ⚙️ Installation & Usage
 
@@ -69,11 +62,7 @@ Phishing-URL-Detector/
 git clone https://github.com/your-username/Phishing-URL-Detector.git
 cd Phishing-URL-Detector
 
-
-2️⃣ Install dependencies
-
-pip install -r requirements.txt
-
+---
 
 3️⃣ Train the model
 
@@ -83,7 +72,7 @@ python phishing_detector.py
 4️⃣ Predict with a new URL
 
 python predict.py "http://suspicious-example.com/login"
-
+---
 
 📊 Model Performance
 
@@ -103,6 +92,7 @@ python predict.py "http://suspicious-example.com/login"
 
 ☁️ Create an API Service for third-party integration
 
+---
 
 🤝 Contributing
 
@@ -117,7 +107,7 @@ Commit your changes (git commit -m 'Add feature')
 Push to the branch (git push origin feature-name)
 
 Open a Pull Request
-
+---
 
 👨‍💻 Author
 
