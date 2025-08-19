@@ -1,23 +1,41 @@
-🛡️ Phishing URL Detector
+# 🎯 Phishing URL Detector using Machine Learning  
 
-🚀 A Machine Learning-based Cybersecurity Project
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)  
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.x-orange.svg)](https://scikit-learn.org/)  
+[![Pandas](https://img.shields.io/badge/Pandas-1.x-blue.svg)](https://pandas.pydata.org/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
 
-📖 Overview
+A **Machine Learning-based Phishing URL Detection System** that analyzes website URLs and classifies them as **Legitimate or Phishing**.  
+This project applies feature extraction techniques on URLs and uses supervised learning models to prevent users from falling victim to online scams.  
 
-Phishing websites trick users into revealing sensitive data like passwords, credit cards, or banking info.
-This project uses Machine Learning (ML) techniques to detect phishing URLs by analyzing their structure, length, domain patterns, and other features.
+---
 
-✅ Objective: Build a robust model to classify URLs as Legitimate ✅ or Phishing ❌.
-✅ Impact: Helps improve cybersecurity and protects users from online fraud.
+## 🚀 Features  
 
+- 🔍 Extracts **URL-based features** automatically  
+- 🤖 Detects phishing using **Machine Learning classifiers**  
+- 📊 Supports multiple algorithms (Logistic Regression, Random Forest, SVM, etc.)  
+- ⚡ Fast and lightweight prediction  
+- 🧠 Model can be extended with deep learning or API integration  
 
-⚡ Key Features
+---
 
-✨ Feature extraction from raw URLs (length, special characters, domain info, etc.)
-✨ Multiple ML models tested – Logistic Regression, Random Forest, SVM
-✨ High Accuracy (~95%) with optimized precision & recall
-✨ Real-time URL prediction support
-✨ Modular & clean project structure
+## 🖼️ Screenshots  
+
+> **Sample CLI Prediction**  
+> ![Screenshot](screenshots/sample_prediction.png)  
+
+*(Add your screenshot in `screenshots/` folder as `sample_prediction.png`)*  
+
+---
+
+## ⚙️ Requirements  
+
+Install all dependencies using:  
+
+```bash
+pip install -r requirements.txt
+
 
 
 🛠️ Tech Stack
